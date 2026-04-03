@@ -139,6 +139,7 @@
     .hero-image-wrap { position: relative; width: 380px; height: 480px; animation: fadeUp 0.9s 0.4s both; }
     .hero-image-wrap::before { content: ''; position: absolute; top: 18px; left: 18px; width: 100%; height: 100%; border: 2px solid var(--accent); z-index: 0; }
     .hero-img-placeholder { width: 100%; height: 100%; background: var(--bg-muted); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1rem; color: var(--text-gray); font-size: 0.8rem; letter-spacing: 0.1em; position: relative; z-index: 1; border: 1px solid var(--border-card); }
+    .hero-photo { width: 100%; height: 100%; object-fit: cover; position: relative; z-index: 1; }
     .hero-img-placeholder svg { opacity: 0.3; stroke: var(--text-gray); }
     .hero-scroll { position: absolute; bottom: 2.5rem; left: 50%; transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; gap: 0.5rem; font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--text-gray); animation: fadeUp 1s 1s both; z-index: 2; }
     .scroll-line { width: 1px; height: 50px; background: linear-gradient(to bottom, var(--accent), transparent); animation: scrollPulse 2s ease-in-out infinite; }
@@ -331,13 +332,14 @@
   </div>
   <div class="hero-right">
     <div class="hero-image-wrap">
-      <div class="hero-img-placeholder">
+      <!-- <div class="hero-img-placeholder">
         <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
-        YOUR PHOTO HERE
+        YOUR PHOTO HERE -->
+        <img src="assets/profile.jpg" alt="Clarissa Angel" class="hero-photo">
       </div>
     </div>
   </div>
-  <div class="hero-scroll"><div class="scroll-line"></div>SCROLL</div>
+  <div class="hero-scroll"><div class="scroll-line"></div>SCROLL FOR MORE</div>
 </section>
 
 <!-- ABOUT -->
@@ -426,12 +428,12 @@
   <div class="section-label">What I Do</div>
   <h2 class="section-title reveal">My Services.</h2>
   <div class="services-grid reveal">
-    <div class="service-card"><div class="service-num">01</div><div class="service-icon">✦</div><div class="service-title">Brand Identity</div><p class="service-desc">Logo design, visual systems, and brand guidelines that give your business a distinctive and memorable presence.</p></div>
-    <div class="service-card"><div class="service-num">02</div><div class="service-icon">◈</div><div class="service-title">Print Design</div><p class="service-desc">Brochures, posters, packaging, and editorial layouts that look stunning in print and reflect your brand's voice.</p></div>
-    <div class="service-card"><div class="service-num">03</div><div class="service-icon">⬡</div><div class="service-title">Digital Design</div><p class="service-desc">Social media graphics, digital ads, and web visuals that capture attention in the scroll-heavy digital world.</p></div>
-    <div class="service-card"><div class="service-num">04</div><div class="service-icon">◉</div><div class="service-title">Typography</div><p class="service-desc">Custom lettering, type pairings, and typographic systems that give your brand a strong, consistent voice.</p></div>
-    <div class="service-card"><div class="service-num">05</div><div class="service-icon">⧫</div><div class="service-title">Illustration</div><p class="service-desc">Custom illustrations and icon sets that add personality and uniqueness to your brand's visual language.</p></div>
-    <div class="service-card"><div class="service-num">06</div><div class="service-icon">✧</div><div class="service-title">Art Direction</div><p class="service-desc">Creative direction for campaigns, photo shoots, and brand collateral to ensure visual coherence across all touchpoints.</p></div>
+    <div class="service-card"><div class="service-num">01</div><div class="service-icon">۶ৎ</div><div class="service-title">Brand Identity</div><p class="service-desc">Logo design, visual systems, and brand guidelines that give your business a distinctive and memorable presence.</p></div>
+    <div class="service-card"><div class="service-num">02</div><div class="service-icon">ʚɞ</div><div class="service-title">Print Design</div><p class="service-desc">Brochures, posters, packaging, and editorial layouts that look stunning in print and reflect your brand's voice.</p></div>
+    <div class="service-card"><div class="service-num">03</div><div class="service-icon">𐔌՞. .՞𐦯</div><div class="service-title">Digital Design</div><p class="service-desc">Social media graphics, digital ads, and web visuals that capture attention in the scroll-heavy digital world.</p></div>
+    <div class="service-card"><div class="service-num">04</div><div class="service-icon">.ᐟ</div><div class="service-title">Typography</div><p class="service-desc">Custom lettering, type pairings, and typographic systems that give your brand a strong, consistent voice.</p></div>
+    <div class="service-card"><div class="service-num">05</div><div class="service-icon">Ი︵𐑼</div><div class="service-title">Illustration</div><p class="service-desc">Custom illustrations and icon sets that add personality and uniqueness to your brand's visual language.</p></div>
+    <div class="service-card"><div class="service-num">06</div><div class="service-icon">☘︎</div><div class="service-title">Art Direction</div><p class="service-desc">Creative direction for campaigns, photo shoots, and brand collateral to ensure visual coherence across all touchpoints.</p></div>
   </div>
 </section>
 
