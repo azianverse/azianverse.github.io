@@ -1,7 +1,0 @@
-Feature (idea lang, medyo hihi)
-
-1. Resume/CV Download button - A "Download CV" button in the nav(?) or sa footer.
-2. Availability badge - A green dot next to "Available for Internship" (parang 'yung nasa Active Now sa Messenger)
-3. (What if an intro animation? dba dba? pag-aralan mo kasi mag animation!!)
-3.5 Image lightbox in modal - Clicking the project image in the modal zooms it to full screen
-4. Project Count - show the number of visible projects dynamically next to the "My Projects" heading when filters are active (example: Showing 3 of 10)
